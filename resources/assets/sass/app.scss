@@ -1,0 +1,126 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+//@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+// SemanticUI
+
+@import "./semantic/public/semantic/semantic";
+@import "../../../node_modules/izitoast/dist/css/iziToast.min.css";
+
+.app {
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+.parent {
+    width: 90%;
+    min-width: 450px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.ui.menu {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#uservotes {
+    margin-left: 0.2rem;
+}
+
+main {
+    margin-top: 3rem;
+}
+
+.ui.header:first-child {
+    margin-bottom: 0.5rem;
+}
+
+.slide-left-enter-active,
+.slide-right-enter-active,
+.slide-left-leave-active,
+.slide-right-leave-active {
+    transition: 0.4s all cubic-bezier(0.57, 0, 0.3, 1);
+}
+
+.slide-left-leave-to,
+.slide-right-enter {
+    transform: translate3d(-100vw, 0, 0);
+}
+
+.slide-right-leave-to,
+.slide-left-enter {
+    transform: translate3d(100vw, 0, 0);
+}
+
+.lb {
+    white-space: pre-line;
+}
+
+.admin-divider {
+    margin-top: 4rem !important;
+}
+
+.admin-separation {
+    margin-bottom: -0.2rem !important;
+}
+
+.finished {
+    background-color: #21ba45 !important;
+    color: white !important;
+}
+
+.finished .value,
+.finished .label,
+.finished .header {
+    color: white !important;
+}
+
+.done p {
+    color: #cacaca !important;
+}
+
+.done .header {
+    color: #8a8a8a !important;
+}
+
+.feedback-edit {
+    border: none;
+    outline: none;
+    background-color: #f8f8f8;
+    padding: 0.3em;
+    width: 100%;
+}
+
+.feedback-edit:hover {
+    border: none;
+    outline: none;
+}
+
+.voters {
+    cursor: pointer;
+}
+
+.disabled {
+    color: #c5c5c5;
+    cursor: not-allowed;
+}
+
+.my-votes {
+    display: inline-block;
+    color: #c3c3c3;
+}
+
+.votes-header {
+    display: inline-block;
+}
