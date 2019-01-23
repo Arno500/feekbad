@@ -3,6 +3,7 @@
 *.scss linguist-vendored
 *.js linguist-vendored
 */*.css linguist-vendored
+semantic/public/semantic/components/*.css linguist-vendored
 */*.scss linguist-vendored
 */*.js linguist-vendored
 CHANGELOG.md export-ignore
